@@ -4,4 +4,5 @@ resources:
   - aws-gitops-master-cluster.yaml
   - aws-spoke-01-cluster.yaml
   - azure-spoke-01-cluster.yaml
+  - gcp-spoke-01-cluster.yaml
   - upbound-hub-cluster.yaml
