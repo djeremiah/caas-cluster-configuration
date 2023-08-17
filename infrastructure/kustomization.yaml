@@ -6,3 +6,5 @@ resources:
   - azure-spoke-01-cluster.yaml
   - gcp-spoke-01-cluster.yaml
   - upbound-hub-cluster.yaml
+  - aws-spoke-02-cluster.yaml
+  - azure-spoke-02-cluster.yaml
