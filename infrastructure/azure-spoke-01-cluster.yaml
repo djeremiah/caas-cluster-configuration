@@ -9,7 +9,7 @@ spec:
     region: West Europe
     version: "1.27.3"
     nodes:
-      count: 3
+      count: 6
       size: small
   writeConnectionSecretToRef:
     name: azure-spoke-01-kubeconfig
