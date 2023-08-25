@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
   - aws-gitops-master-cluster.yaml
   - upbound-hub-cluster.yaml
-  - weave-gitops-dashboard.yaml
-  - azure-spoke-01-cluster.yaml
