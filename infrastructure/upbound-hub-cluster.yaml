@@ -1,11 +1,11 @@
 apiVersion: mcp.caas.upbound.io/v1alpha1
 kind: ControlPlane
 metadata:
-  name: qbr-demo
+  name: cluster-hub
   namespace: default
 spec:
   parameters:
     organizationName: crossplane-by-example
-    configuration: caas-toolkit
+    configuration: cluster-as-a-service
   writeConnectionSecretToRef:
-    name: mcp-qbr-demo-kubeconfig
+    name: mcp-cluster-hub-kubeconfig

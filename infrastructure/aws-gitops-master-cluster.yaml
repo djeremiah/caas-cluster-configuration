@@ -13,9 +13,9 @@ spec:
       size: small
     serviceSelector: gitops-master
     gitops:
-      url: https://github.com/djeremiah/caas-cluster-configuration
+      url: https://github.com/djeremiah/cluster-hub-gitops
       kubeConfigSecretRef:
-        name: mcp-qbr-demo-kubeconfig
+        name: mcp-cluster-hub-kubeconfig
         namespace: default
   writeConnectionSecretToRef:
     name: aws-gitops-master-kubeconfig
